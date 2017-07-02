@@ -1,5 +1,5 @@
 <?php
-$xpub = "xpub6CUGRUonZSQ4TWtTMmzXdrXDtypWKiKrhko4egpiMZbpiaQL2jkwSB1icqYh2cfDfVxdx4df189oLKnC5fSwqPfgyP3hooxujYzAu3fDVmz";
+$xpub = "xpubYOUR_XPUB_KEY_GOES_HERE";
 $url = "https://api.smartbit.com.au/v1/blockchain/address/".$xpub;
 $fgc = json_decode(file_get_contents($url), true);
 $next = $fgc["address"]["extkey_next_receiving_address"];
